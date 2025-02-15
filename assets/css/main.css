@@ -856,7 +856,7 @@ section,
   top: 0;
   left: 0;
   right: 0;
-  opacity: .4;
+  opacity: .3;
 }
 
 .hero .container {
@@ -930,7 +930,7 @@ section,
 
 @media (max-width: 640px) {
   .hero {
-    background-position: center;
+    background-position: 60%;
   }
   .hero h1 {
     font-size: 28px;
@@ -946,6 +946,10 @@ section,
   .hero .btn-get-started,
   .hero .btn-watch-video {
     font-size: 13px;
+  }
+
+  .hero:before {
+    opacity: .5;
   }
 }
 
